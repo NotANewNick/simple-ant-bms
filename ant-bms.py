@@ -9,8 +9,6 @@ import os
 import platform
 import time
 import struct
-from heater import Relay
-
 
 from bleak import BleakClient, BleakScanner
 from bleak.backends.characteristic import BleakGATTCharacteristic
